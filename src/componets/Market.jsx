@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 const Market = () => {
 
@@ -75,15 +74,7 @@ const [apiLoad, setApiLoad] = useState(true);
               return(
                <tr className='market-content__coin-list__row' key={id}>
                 <td>
-                <Link
-                    onClick={scrollTop}
-                    to={`/coin}`}
-                    // to={`/coin/${item.id}`}
-                    className="coin-row"
-                    key={item.id}
-                  >
                   <img src={item.image} alt={item.name} height={16} width={16}/> {item.name}
-                  </Link>
                   </td>
                 <td>{"$ " + item.current_price.toFixed(2)}</td>
                 <td
