@@ -2,7 +2,9 @@
 # Coindom
 
 Utilized CoinGenko API to develop a dynamic cryptocurrency app, showcasing React proficiency and real-time data integration for seamless userexperience.
+## Demo
 
+https://coindom-repo.vercel.app/
 
 ## API Reference
 
